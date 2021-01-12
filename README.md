@@ -6,7 +6,7 @@ D64-Disk-Layout-Base
 VERSION
 -------
 
-Version 0.02 (2018-11-24)
+Version 0.03 (2021-01-12)
 
 INSTALLATION
 ------------
@@ -26,7 +26,7 @@ A comprehensive module documentation is available on [CPAN](https://metacpan.org
 COPYRIGHT AND LICENCE
 ---------------------
 
-Copyright (C) 2011, 2018 by Pawel Krol.
+Copyright (C) 2011-2021 by Pawel Krol.
 
 This library is free open source software; you can redistribute it and/or modify it under the same terms as Perl itself, either Perl version 5.8.6 or, at your option, any later version of Perl 5 you may have available.
 
