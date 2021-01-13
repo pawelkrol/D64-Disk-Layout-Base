@@ -12,4 +12,19 @@ WriteMakefile(
       (AUTHOR         => 'Pawel Krol <pawelkrol@cpan.org>') : ()),
     DEFINE            => '',
     OPTIMIZE          => '-O2',
+    META_MERGE        => {
+        'meta-spec' => {
+            'version' => 2,
+        },
+        'resources' => {
+            'bugtracker' => {
+                'web' => 'https://github.com/pawelkrol/D64-Disk-Layout-Base/issues',
+            },
+            'repository' => {
+                'type' => 'git',
+                'url'  => 'git://github.com/pawelkrol/D64-Disk-Layout-Base.git',
+                'web'  => 'https://github.com/pawelkrol/D64-Disk-Layout-Base.git',
+            },
+        },
+    },
 );
